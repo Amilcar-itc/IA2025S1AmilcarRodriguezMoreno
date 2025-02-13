@@ -1,5 +1,10 @@
 package inteligenciaArtificial;
-
+/*
+Segunda version del algoritmo solucionador de puzzles deslizantes
+Es una version mas limpia que la primera. La logica y los algoritmos
+son identicos a Puzzle9V1.java, solo se eliminaron los atributos y
+metodos innecesarios y no utilizados.
+*/
 public class Puzzle9 { // Amilcar Rodriguez Moreno
 	// Generador aleatorio:
 	// https://sliding.toys/mystic-square/8-puzzle/
