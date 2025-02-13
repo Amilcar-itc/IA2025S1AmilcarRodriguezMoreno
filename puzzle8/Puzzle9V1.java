@@ -1,5 +1,11 @@
 package inteligenciaArtificial;
-
+/*
+Primera version del algoritmo solucionador de puzzles deslizantes
+Paso por una etapa de desarrollo con un enfoque recursivo (escaneo a profundidad)
+Despues se opto por un enfoque longitudinal, por lo que sobraron varios atributos
+y metodos innecesarios. Puzzle9V1.java es el mismo codigo pero limpio de estos
+atributos y metodos innecesarios, se reduce el codigo un 13%.
+*/
 public class Puzzle9 { // Amilcar Rodriguez Moreno
 	// Generador aleatorio:
 	// https://sliding.toys/mystic-square/8-puzzle/
