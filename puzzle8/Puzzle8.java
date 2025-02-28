@@ -82,7 +82,7 @@ public class Puzzle8 { // Amilcar Rodriguez Moreno
 		// priorityIterativeDepthSolve
 		// priorityQueueSolve
 		
-		int memory = solver.depthSolve();
+		int memory = solver.priorityQueueSolve();
 		time = System.currentTimeMillis()-time;
 		System.out.println("Tiempo de ejecucion: "+time+" milisegundos"
 				+ "\nMemoria usada: "+memory);
