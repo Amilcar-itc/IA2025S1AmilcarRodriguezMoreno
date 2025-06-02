@@ -53,7 +53,7 @@ class Arbol <T extends Comparable<T>>{
 		if (nodo == null) //
 			System.out.println("└ null"); //
 		else if (!nodo.esHoja()){
-			/*System.out.println('└'+nombre+((nodo.esHoja())?" (Hoja)":"")+": "+nodo.contenido.toString());
+			System.out.println('└'+nombre+((nodo.esHoja())?" (Hoja)":"")+": "+nodo.contenido.toString());
 			if (nodo.izquierda != null) {
 				imprimirArbol(nodo.izquierda,("Nodo izq. Nivel"+(nivel+1)), nivel+1);
 			}
@@ -104,7 +104,7 @@ public class ExamenDiagnostico {
 		while (opcion != 0) {
 			opcion = -1;
 			System.out.print("\nÁrbol binario de búsqueda"
-					+ "\n[0] Salir | [1] Insertar cadena | [2] Buscar nodo | [3] Imprimir árbol"
+					+ "\n[0] Salir | [1] Insertar cadena | [2] Buscar nodo | [3] Imprimir árbol (sirve 2/3)"
 					+ "\nIngrese una opción: ");
 			int min = 0, max = 3;
 			while (opcion < min || opcion > max) {
