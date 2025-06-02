@@ -64,14 +64,15 @@ public class Puzzle8 { // Amilcar Rodriguez Moreno
 			};
 		
 		
-		PuzzleNode test = new PuzzleNode(game4x4, 0);
+		PuzzleNode test = new PuzzleNode(/**/game4x4/**/, 0); // Edite esta linea con el juego que se desea resolver
 		test.print();
 		
 		PuzzleXSolver solver = new PuzzleXSolver();
 		solver.setGame(test);
 		solver.setDebug(!true);
 		long time = System.currentTimeMillis();
-		
+
+		// Metodo de solucion posibles:
 		// widthSolve
 		// depthSolve
 		// limitDepthSolve
@@ -82,7 +83,7 @@ public class Puzzle8 { // Amilcar Rodriguez Moreno
 		// priorityIterativeDepthSolve
 		// priorityQueueSolve
 		
-		int memory = solver.priorityQueueSolve();
+		int memory = solver.priorityQueueSolve(); // Edite esta linea con el metodo de solucion que se desea usar
 		time = System.currentTimeMillis()-time;
 		System.out.println("Tiempo de ejecucion: "+time+" milisegundos"
 				+ "\nMemoria usada: "+memory);
